@@ -187,8 +187,7 @@ header.scrolled  {
     top: 0;
     left: 0;
     z-index: -1;
-    background: image('./image/lazania.jpg') no-repeat center/center cover;
-
+    background: url(/image/lazania.jpg) no-repeat center center/cover;
  }
 #contacts p{
    position: absolute;
