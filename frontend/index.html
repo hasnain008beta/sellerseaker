@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Food Lazania</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="https://i.pravatar.cc/300" alt="avatar image">
+
+        <nav>
+            <ul>
+                <li class="navigation"><a href="#">Home</a></li>
+                <li class="navigation"><a href="#">About</a></li>
+                <li class="navigation"><a href="#">Contact Us</a></li>
+                <li class="navigation"><a href="#">Account</a></li>
+                <li class="navigation"><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- hero section  -->
+
+    <section id="hero">
+        <div class="heros">
+            <h2>Spicy Food Resturent</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur animi magnam atque! Quidem deleniti nemo id incidunt minus quis distinctio a, modi error esse vitae accusantium architecto sapiente accusamus. A!</p>
+            <button>Load More</button> <button>Watch Video</button>
+        </div>  
+    </section>
+  <!-- image section  -->
+<section id="pics">
+    <p>The Menu</p>
+
+    <div class="menu-items">
+        <div class="images">
+            <span>Laziz Burger</span>
+            <img src="/imgae/burger.jpg" alt="Tasty Burger">
+        </div>
+
+        <div class="images">
+            <span>Peproni Pizza</span>
+            <img src="/imgae/pizza.webp" alt="Peproni Pizza">
+        </div>
+
+        <div class="images">
+            <span>Lasania Layered Box</span>
+            <img src="/imgae/lazina.jpeg" alt="Lasania Tasty Box">
+        </div>
+    </div>
+</section>
+
+
+<section id="companies">
+    <p>Our Clients</p>
+<div class="all-logo"> 
+    <div class="apple">
+        <img src="/imgae/logo/apple-logo.png" alt="apple-company">
+    </div>
+     <div class="Cannon">
+        <img src="/imgae/logo/canon.png" alt="Cannon-company">
+    </div>
+     <div class="ibm">
+        <img src="/imgae/logo/ibm.png" alt="ibm-company">
+    </div>
+     <div class="apple">
+        <img src="/imgae/logo/linux.png" alt="linux-company">
+    </div>
+    <div class="philips">
+        <img src="/imgae/logo/philips.png" alt="philips-company">
+    </div>
+    </div>
+</section>
+
+<!-- contact us  -->
+ <section id="contacts">
+    <p>Contact Us</p>
+    <form action="" >
+        <div class="bricks">
+            <label for="name">
+                name : <br> <input type="text">
+            </label>
+        </div>
+        <div class="bricks"> 
+            <label for="email">
+                email : <br><input type="email">
+            </label>
+        </div>
+        <div class="bricks"> 
+            <label for="name">
+                phone no : <br><input type="tel">
+            </label>
+        </div>
+        <div class="bricks"> 
+            <label for="feedback">Your Feedback:</label> <br>
+            <textarea id="feedback" name="feedback" rows="15" cols="50" placeholder="Type your message here..."></textarea>
+
+        </div>
+    </form>
+
+ </section>
+
+
+<footer>
+    <span>Spicy Lazania</span>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+    </ul>
+
+<div class="News">
+<form action="">
+    <label for="email">NewsLetter:</label>
+    <input type="email" id="email" placeholder="Enter Your Email">
+    <button type="button" id="btn">Send</button>
+</form>
+ 
+</div>
+
+</footer>
+
+<script>
+window.addEventListener("scroll", function () {
+    const header = document.querySelector("header");
+
+    if (window.scrollY > 2) {
+        header.classList.add("scrolled");
+    } else {
+        header.classList.remove("scrolled");
+    }
+});
+</script>
+
+
+</body>
+</html>
